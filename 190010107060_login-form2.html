@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0%;
+                padding: 0%;
+                box-sizing: border-box;
+            }
+            .backgrndimg{
+                background-image: url(unsplashimg.jfif);
+                z-index: 0;
+                height: 100vh;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+
+            label{
+                color: lightgray;
+                font-weight: 600;
+            }
+
+            .circleimg{
+                height: 50px;
+                width: 50px;
+                border-radius: 2rem;
+                margin-left: 130px;
+                margin-top: -26px;
+            }
+
+            .section{
+                margin: 200px;
+                margin-left: 600px;
+                margin-top: -520px;
+                filter: grayscale(5px);
+                width: 20%;
+                height: 320px;
+                background-color: rgba(0,0,0,0.6);
+                z-index: 2;
+                color: lightgray;
+            }
+            .header{
+                font-weight: 600;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .inpt{
+                text-decoration: underline;
+                background-color: rgba(0,0,0,0);
+                border: none;
+                color:rgb(163, 163, 163);
+                font-weight: 700;
+                position: relative;
+                border-bottom: 2px solid gray;
+                width: 270px;
+            }
+
+            .credentials{
+                height: 150px;
+                padding: 17px;
+            }
+
+            .sign-inbtn{
+                width: 90%;
+                border-radius: 2rem;
+                background-color: red;
+                height: 24px;
+                color: lightgray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="backgrndimg"></div>
+        <div class="section">
+            <div class="wmnimg">
+                <img src="Images/Light/AdobeStock_405314.jpeg" class="circleimg"></img>
+            </div>
+            
+           <div class="header">
+               CONTACT FORM
+            </div>
+           <div class="credentials">
+                </br>
+               <label>Email</label>
+                </br>
+               <input type="text" value="Enter Email" class="inpt"></input>
+                </br></br>
+               <label>Password</label>
+               </br>
+               <input type="text" value="Enter Password" class="inpt"></input>
+            </div>
+                </br>   
+            <div class="final">
+                <p align="center">
+                    <button type="button" class="sign-inbtn">Sign In</button>
+                </p>
+                <p align="center">
+                    <input type="checkbox"></input>
+                    Remember Me
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
